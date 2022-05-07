@@ -1,16 +1,13 @@
-# routes_pracitce
+# routesとLinearProgressIndicatorの学習
 
-A new Flutter project.
+## routes
 
-## Getting Started
+MaterialApp()のプロパティ
+表示する画面をここで登録することで、Naviagtor.pushNamedを用いて、push・popが今までより少ないコードで行えた。
 
-This project is a starting point for a Flutter application.
+## LinearProgressIndicator
 
-A few resources to get you started if this is your first Flutter project:
+横棒のインジケーター
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+今回特に疑問に思うことはなく、routesにscreenを登録し、ボタンが押されたらscrenn2へ遷移しLinearProgressIndicatorを表示する簡単なアプリを作成した。また、screen2のbuttonを押すとインジケーターは消える
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
